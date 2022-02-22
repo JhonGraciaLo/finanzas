@@ -1,0 +1,15 @@
+import pandas as pd
+import matplotlib.pyplot as plt 
+data=pd.read_excel('finanzas_p.xlsx')
+data
+
+
+# EJECUTAR EL CÓDIGO
+
+# PARA SACAR LA GRÁFICA
+data.plot()
+
+# EJECUTAR EL CÓDIGO
+
+
+data.describe()
